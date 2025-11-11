@@ -1,0 +1,10 @@
+{
+  "name": "knoledge-backend",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "node scripts/mvnw.js spring-boot:run",
+    "start": "node scripts/mvnw.js spring-boot:run",
+    "build": "node scripts/mvnw.js clean package -DskipTests"
+  }
+}
